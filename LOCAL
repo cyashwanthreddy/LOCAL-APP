@@ -1,0 +1,2477 @@
+Localhome.html 
+<html> 
+<head> 
+<title> local app </title> 
+</head> 
+<frameset rows="12%,*" frameborder="no"> 
+<frame src="localtop.html" /> 
+<frame src="localbottom.html" name="localandnon-local" /> 
+</frameset> 
+</html> 
+ 
+Localtop.html 
+<html> 
+<head> 
+<title>local top</title> 
+<style> #img1{ margin:0px; height:62px; width:120px; 
+} 
+#img2{ height:30px; width:30px; margin-left:25px; } table{ margin-left:0px; margin-top:0px; margin-bottom:0px; 
+} #first{ text-align:center; } a{ color:white; text-decoration:none; font-family:consolas; } a:hover{ color:orange; } a:active{ color:blue; } #second{ 
+text-align:left; } #button{ color:red; margin-left:90px; background-color:red; color:white; font-family:candara; border-radius:25px; height:40px; width:90px; 
+} 
+#lang{ color:white; font-family:consolas; 
+} select{ background-color:black; border-radius:20px; width:100px; color:white; font-size:10px; 
+} 
+</style> 
+</head> 
+<body bgcolor="black"> 
+<table> 
+<tr> 
+<td> 
+<img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\local.png" /> 
+</td> 
+<td id="first" width="80px" > 
+<a href="localbottom.html" target="localandnon-local">Local</a> 
+</td> 
+<td width="750px"> 
+<a href="non-local.html" target="localandnon-local">Non-Local</a> 
+</td> 
+<td width="100px" ><a href="localoffers.html" target="_">Offers</a> 
+</td> 
+<td width="140px"><a href="mybooking.html" target="_">My Bookings</a> 
+</td> 
+<td width="220px" id="lang"> 
+Language:<select> 
+<option >Select your language</option> 
+<option>Telugu</option> 
+<option>Kannada</option> 
+<option>Malyalam</option> 
+<option>Hindi</option> 
+</select> 
+</td> 
+<td width="10px"><a href="locallogin.html"><img id="img2" src="C:\Users\Yashwanth\OneDrive\Pictures\sign.png"  > 
+</a></td> 
+<td width="120px" id="second"><a href="locallogin.html">Login</a> 
+</td> 
+<td width="200px"> 
+<a href="localregister.html" target="localbottom.html" ><input id="button" type="Submit" value="Sign In" /></a> 
+</td> 
+</tr> 
+</table> 
+</body> 
+</html> 
+ 
+ 
+Localbottom.html 
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style>     .row {       margin-top: 0px;       background-image: linear-gradient(10deg, black, transparent), url("https://s3.rdbuz.com/Images/WL/CMS/KTCL/8.png");       background-repeat: no-repeat;       background-size: cover;       width: 1500px;       height: 350px;       overflow: hidden; 
+    } 
+ 
+    #first {       width: 320px;       height: 50px;       margin-left: 300px;       border-top-left-radius: 10px;       border-bottom-left-radius: 10px; 
+    } 
+ 
+    #second {       width: 320px; height: 50px;       border-width: 2px; 
+    } 
+ 
+    #third {       width: 35px;       height: 32px;       border-image-width: 20px;       object-position: 50% 50%; 
+    } 
+ 
+    input[placeholder] {       font-family: Comic Sans MS;       font-style: italic; 
+    } 
+ 
+    #date {       width: 200px;       height: 50px;       border-top-right-radius: 10px;       border-bottom-right-radius: 10px;       text-align: center; 
+    } 
+ 
+    #search {       text-align: center;       justify-content: 600px;       background-color: rgb(210, 0, 0);       width: 130px;       height: 50px; 
+      margin-top: 2%;       margin-left: 0px;       border-radius: 20px;       font-family: verdana;       font-size: 19px;       color: white; 
+    } 
+ 
+    #button {       margin-left: 545px;       margin-bottom: 40px;       height: 35px;       width: 100px;       border-radius: 30px;       font-family: bookman old style;       font-size: 16px; 
+    } 
+#button:hover{ background-color:rgb(185,0,0); color:white; } #button:active{ background-color:red; 
+}     h2 {       margin-left: 675px;       font-family: tahoma;       font-weight: normal; letter-spacing: 3px; 
+    } 
+ 
+    #button1 {       height: 35px;       width: 100px;       border-radius: 30px;       font-family: bookman old style;       font-size: 16px; 
+    } 
+#button1:hover{ background-color:rgb(185,0,0); color:white; } #button1:active{ background-color:red; }     #button2 {       height: 35px;       width: 100px;       border-radius: 30px;       font-family: bookman old style;       font-size: 16px; 
+    } 
+#button2:hover{ background-color:rgb(185,0,0); color:white; } #button2:active{ background-color:red; 
+}     #button3 {       height: 35px;       width: 100px;       border-radius: 30px;       font-family: bookman old style;       font-size: 16px; 
+    } 
+#button3:hover{ background-color:rgb(185,0,0); color:white; } #button3:active{ background-color:red; 
+} 
+    .table {       width: 550px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 20px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%);       overflow: hidden; 
+    } 
+ 
+    #image1 { text-align: center;       width: 540px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image1:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    .table1 {       width: 545px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 30px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%); 
+    } 
+ 
+    #image2 {       text-align: center;       width: 535px;       height: 180px; margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image2:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    #special {       margin-left: 20px;       margin-top: 80px; 
+    } 
+ 
+    .spec {       box-shadow:         0 0 0 2px hsl(0, 0%, 97%);       margin-left: 180px;       margin-right: 150px;       margin-top: 40px; 
+    } 
+ 
+    #pec {       margin-top: 0px;       margin-left: 20px; 
+    } 
+ 
+    #link {       font-family: verdana;       color: rgb(0, 0, 80);       text-align: right; 
+    } 
+ 
+    #link:hover {       color: rgb(150, 0, 0); 
+    } 
+ 
+    .specifications {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 80px;       margin-top: 40px;       margin-right: 80px;       margin-bottom: 0px; 
+    } 
+ 
+    #app {       font-family: Tahoma;       font-weight: normal;       text-transform: uppercase;       margin-top: 20px;       margin-left: 20px; 
+    } 
+     ul { margin-left: 20px; 
+    } 
+ 
+    #app1 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+     p {       font-family: Verdana; 
+    }      li { 
+      font-family: Verdana; 
+    } 
+ 
+    #app4 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+#app6 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+#app7 { font-family: Gadugi; margin-left: 0px; 
+      letter-spacing: 1px; 
+    } .part {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 150px;       margin-top: 40px;       margin-right: 120px;       margin-bottom: 0px; 
+    } 
+#part1{       font-family: Gadugi;       margin-left: 40px;       letter-spacing: 1px; 
+    } 
+#image3 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 90px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image3:hover {       border-style: outset; 
+height: 200px; 
+transform: scale(1.07); 
+    } 
+#image4 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image4:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+#image5 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image5:hover { border-style: outset; height: 200px; 
+      transform: scale(1.07); 
+    } 
+#image6 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image6:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+#image7 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image7:hover { border-style: outset; 
+      height: 200px;       transform: scale(1.07); 
+    } 
+#pack {       font-family: consolas;       margin-left: 100px;       letter-spacing: 0px; font-weight:normal; 
+    } 
+.download{ margin-left:120px; margin-top:40px; 
+} #playstore{ margin-left:100px; margin-top:40px; 
+} #apple{ margin-left:0px; margin-top:40px; 
+} 
+  </style> 
+</head> 
+ 
+<body> 
+  <div class="row"> 
+    <h2>Book Tickets</h2>     <a href="localbottom.html" target="_"><input id="button" type="button" value="Bus" /></a> 
+    <a href="localtrain.html" target="_"><input type="button" id="button1" value="Train" /></a> 
+    <a href="non-localhotel.html" target="_"><input type="button" id="button2" value="Hotel" /></a> 
+    <a href="rentals.html"><input type="button" id="button3" value="Rentals" 
+/></a><br /> 
+    <input type="text" name="first" id="first" placeholder="Leaving 
+From"><input type="text" name="second" id="second" placeholder="Going To" /><input placeholder="Date of Journey" type="text" onfocus="(this.type='date')" id="date"> 
+      <br /> 
+      <center><a href="search.html"><input type="button" value="Search" id="search" /></a></center> 
+  </div> 
+  <div class="spec"> 
+    <br /> 
+    <table> 
+      <tr> 
+        <td width="1000px"> 
+          <h2 id="pec">Special offers</h2> 
+        </td> 
+        <td width="200px"> 
+          <a id="link" href="localoffer.html">Veiw All Offers</a> 
+        </td> 
+      </tr> 
+    </table> 
+    <table> 
+<tr> 
+        <td> 
+          <div class="table">             <img id="image1" src="C:\Users\Yashwanth\OneDrive\Pictures\busoffer.jpg" /> 
+          </div> 
+        </td> 
+        <td> 
+          <div class="table1">             <img id="image2" src="C:\Users\Yashwanth\OneDrive\Pictures\offer3.jpg" /> 
+          </div> 
+        </td> 
+    </table> 
+  </div> 
+<div class="part"> 
+<h2 id="part1">Book Government Bus Ticket on Local App</h2> 
+<table> 
+<tr> 
+<td><img id="image3" src="C:\Users\Yashwanth\OneDrive\Pictures\apsrtc.jpg" /></td> 
+<td><img id="image4" src="C:\Users\Yashwanth\OneDrive\Pictures\tsrtc.jpg" 
+/></td> 
+<td><img id="image5" src="C:\Users\Yashwanth\OneDrive\Pictures\kesrtc.jpg" /></td> 
+<td><img id="image6" src="C:\Users\Yashwanth\OneDrive\Pictures\ksrtc.jpg" 
+/></td> 
+<td><img id="image7" src="C:\Users\Yashwanth\OneDrive\Pictures\gsrtc.jpg" 
+/></td> 
+</tr> 
+</table> 
+</div> 
+  <div class="specifications"> 
+    <label for="app"> 
+      <h1 id="app">Specifications of our App</h1> 
+    </label> 
+    <ul> 
+      <li> 
+        <label for="app1"> 
+          <h2 id="app1">No Convenience Fee</h2> 
+        </label> 
+      </li> 
+      <label for="app2"> 
+        <p id="app2"> 
+        <ul type="square"> 
+          <li> 
+            Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure. 
+          </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+          <li>Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure.           </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+        </ul> 
+        </p> 
+      </label> 
+      <li> 
+        <label for="app4"> 
+          <h2 id="app4">Easy Booking</h2> 
+        </label> 
+        <label for="app5"> 
+          <p id="app5"> 
+          <ul type="square"> 
+            <li>A ticket is a voucher that indicates that an individual is entitled to admission 
+            </li> 
+            <li>An event or establishment such as a theatre, amusement park,or tourist attraction 
+            </li> 
+            <li>Has a right to travel on a vehicle, such as with an airline ticket, bus ticket or train ticket. 
+            </li> 
+            <li>An individual typically pays for a ticket, but it may be free of charge. 
+            </li> 
+            <li>A ticket may serve simply as proof of entitlement or reservation. 
+            </li> 
+            <li>A ticket may be valid for any seat (called "free seating" or "open seating"). 
+            </li> 
+            <li>For a specific one (called "allocated seating" or "reserved seating"). 
+            </li> 
+          </ul> 
+<li> 
+<h2 id="app6"> 
+Exciting Offers 
+</h2> 
+<p> 
+<ul> 
+<li> 
+Sales promotion is one of the elements of the promotional mix. 
+</li> 
+<li> The primary elements in the promotional mix are advertising  
+</li> 
+<li>Personal selling, direct marketing and publicity/public relations.  
+</li> 
+<li>Sales promotion uses both media and non-media marketing communications.  
+</li> 
+<li>A pre-determined, limited time to increase consumer demand, stimulate.  
+</li> 
+<li>Market demand or improve product availability.  
+</li> 
+<li>Examples include contests, coupons, freebies, loss leaders, point of purchase displays, premiums, prizes, product samples, and rebates. 
+</li> 
+<li> 
+Sales promotions can be directed at either the customer, sales staff, or distribution  
+</li><li>Channel members (such as retailers).  
+</li><li>Sales promotions targeted at the consumer are called consumer sales promotions.  
+</li><li>Sales promotions targeted at retailers and wholesale are called trade sales promotions. 
+</li> 
+</ul> 
+<li> 
+<h2 id="app7"> 
+Primo Certified Buses 
+</h2> 
+</li> 
+<p> 
+<ul> 
+<li> 
+VIA Primo (stylized as prímo) is a bus rapid transit service operated.   
+</li><li>VIA Metropolitan Transit in San Antonio, Texas.  
+</li><li>As of January 2019, it comprises three lines.  
+</li><li>Route 100 runs along the Fredericksburg  
+</li><li>Road corridor, from the Medical Center Transit Center.  
+</li><li>The vicinity of the South Texas Medical Center, to Downtown San Antonio.  
+</li><li>Route 102 serves Military Drive between Kel-Lac Transit Center and Brooks Transit Center.  
+</li><li>Route 103 travels on Fredericksburg Road and Zarzamora Street from Crossroads Park & Ride to the Madla Transit Center. 
+</li> 
+<li>From October 2016 to September 2017, Primo accounted for about 5% of total VIA ridership.  
+</li><li>Route 100 was the second-busiest line in the VIA system, with a ridership of 1,784,796 during that timespan. 
+</li><li>In May 2019, Primo had an average weekday ridership of 9,280, or about 8.7% of the overall VIA bus average.  
+</li><li>Route 100 had a slightly higher average than Route 103 (4,833 vs. 
+4,447). 
+</li> 
+</ul> 
+          <br /> 
+<br /> 
+          </p> 
+  </div> 
+<div class="download"> 
+<table> 
+<tr> 
+<td rowspan="3"> 
+<img src="C:\Users\Yashwanth\OneDrive\Pictures\busgif.gif" height="250px" width="400px"/> 
+</td> 
+<td colspan="3"> 
+<h1 id="pack">Get Local App For Easy and Happy Ride</h1> 
+</td> 
+<td> 
+</td> 
+<td> 
+</td> 
+</tr> 
+<tr> 
+<td width="100px"> 
+<a href="https://www.play.google.com"><img id="playstore" src="C:\Users\Yashwanth\OneDrive\Pictures\google.png" width="200px" height="50px"/></a> 
+</td> 
+<td width="100px"> 
+<a href="https://www.apple.com"><img id="apple" src="C:\Users\Yashwanth\OneDrive\Pictures\app.png" width="200px" height="50px"/></a> 
+</td> 
+</tr> 
+</table> 
+</div> 
+<hr>
+<div class="end"> <img width="1500px" src="C:\Users\Yashwanth\OneDrive\Documents\TOC\down.png" /> 
+</div> 
+</body> 
+ 
+</html> 
+ 
+Localoffers.html 
+<html> 
+<head> 
+<title>offers</title> 
+<style> h1{ font-family:verdana; 
+} 
+Table{ 
+Font-weight:normal; Color:black; font-family:verdana; 
+} 
+Tr{ 
+Height:300px; 
+} 
+Td{ 
+Width:400px; 
+Text-align:center; 
+} body{ 
+Background-image:url(""); 
+Background-repeat:no-repeat; 
+Background-size:cover; 
+Position:absolute; Left:50px; right:50px; 
+Top:100px; 
+} 
+#img1{ width:325px; height:200px; 
+} 
+</style> 
+</head> 
+<body><center> 
+<p><h1>OFFERS ON BUS TICKETS</h1></p></center> 
+<table> 
+<tr> 
+<td width="500px" height="200px"><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\download-1.jpg"></td> <td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\download-
+2.jpg"></td> 
+<td><img  id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\download-
+3.jpg"></td> 
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+1.jpg"></td> 
+</tr> 
+<tr>
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+2.jpg"></td> 
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+3.jpg"></td> 
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+4.jpg"></td> 
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+5.jpg"></td> 
+</tr> 
+</table> 
+</body> 
+</html> 
+ 
+Locallogin.html 
+<html> 
+<head> 
+<title>login page</title> 
+<style> 
+Table{ 
+Background-color:rgb(0,0,100); 
+Font-weight:bold; 
+Color:red; 
+} 
+Tr{ 
+Height:50px; 
+} 
+Td{ 
+Width:200px; 
+Text-align:center; 
+} 
+#button {       text-align: center;       justify-content: 600px;       background-color: rgb(210, 0, 0);       width: 100px;       height: 40px;       margin-top: 2%;       margin-left: 0px;       border-radius: 20px;       font-family: verdana;       font-size: 14px;       color: white; 
+    } 
+body{ 
+Background-image:url("/Users/vamsikrishna/Desktop/download.jpg"); 
+Background-repeat:no-repeat; 
+Background-size:cover; 
+Position:absolute; 
+Left:570px; Top:300px; font-family:tahoma; 
+} 
+</style> 
+</head> 
+<body bgcolor="rgb(0,0,30)"> 
+<form> 
+<table> 
+<tr>
+<td>MOBILE NO:</td> 
+<td><input type="number"/></td> 
+</tr> 
+<tr> 
+<td>PASSWORD:</td> 
+<td><input type="password"/></td> 
+<tr> 
+<td><a href="localhome.html"><input id="button" type="button" value="login"/></a></td> 
+<td><input id="button" type="reset"/></td> 
+</tr> 
+</table> 
+</form> 
+</body> 
+</html> 
+ 
+Localregister.html 
+<html> 
+<head> 
+<title>Registration</title> 
+<style> 
+Table{ 
+Background-color:rgb(0,0,70); 
+Font-weight:bold; Color:white; font-family:tahoma; border-radius:20px; margin-top:0px; margin-bottom:85px; 
+} 
+ #search {       text-align: center;       justify-content: 600px;       background-color: rgb(210, 0, 0);       width: 100px;       height: 40px;       margin-top: 2%;       margin-left: 0px;       border-radius: 10px;       font-family: verdana;       font-size: 14px;       color: white; 
+    } 
+input{ width:250px; height:30px; padding:10px; 
+} 
+ 
+Tr{ 
+Height:50px; 
+} 
+Td{ 
+Width:200px; 
+Text-align:center; 
+} body{ Background-image:url("https://thumbs.dreamstime.com/z/registration-concepthand-pressing-social-icons-blue-world-map-background-50755144.jpg"); 
+Background-repeat:no-repeat; 
+Background-size:cover; 
+Position:absolute; 
+Left:520px; 
+Top:85px; 
+} 
+</style> 
+</head> 
+<body> 
+<form method="get"> 
+<table> 
+<tr> 
+<td>NAME:</td> 
+<td><input type="text"/></td> 
+</tr> 
+<tr> 
+<td>PHONE NO:</td> 
+<td><input type="number"/></td> 
+</tr> 
+<tr> 
+<td>EMAIL ID:</td> 
+<td><input type="email"/></td> 
+</tr> 
+<tr> 
+<td>DOB:</td> 
+<td><input type="date"/></td> 
+<tr> 
+<td>GENDER:</td> 
+<td><input type="radio"/>male 
+<input type="radio"/>female 
+</td> 
+</tr> 
+<tr> 
+<td>PASSWORD:</td> 
+<td><input type="password"/></td> 
+</tr> 
+<tr> 
+<td>RE-PASSWORD:</td> 
+<td><input type="password" placeholder="re-enter the password"/></td> 
+</tr> 
+<tr> 
+<td>ADDRESS:</td> 
+<td><textarea rows="4" cols="16"></textarea></td> 
+</tr> 
+<tr> 
+<td>PINCODE:</td> 
+<td><input type="number"/></td> 
+</tr> 
+<tr> 
+<td><input type="button" id="search" value="submit"/></td> 
+<td><input type="reset" id="search" /></td> 
+</tr> 
+</table> 
+</form> 
+</body> 
+</html> 
+Localtrain.html 
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style>     .row {       margin-top: 0px;       background-image: linear-gradient(10deg, black, transparent), url("https://images.railyatri.in/ry_images_prod/Homepage-BannerNew-
+1592207921.jpg");       background-repeat: no-repeat;       background-size: cover;       width: 1500px;       height: 350px;       overflow: hidden; 
+    } 
+ 
+    #first {       width: 320px;       height: 50px;       margin-left: 300px; margin-top:60px;       border-top-left-radius: 10px;       border-bottom-left-radius: 10px; 
+    } 
+ 
+    #second { 
+width: 320px; 
+      height: 50px;       border-width: 2px; 
+    } 
+    input[placeholder] {       font-family:Comic Sans MS ;       font-style: italic; 
+    } 
+ 
+    #date {       width: 200px;       height: 50px;       border-top-right-radius: 10px;       border-bottom-right-radius: 10px;       text-align: center; 
+    } 
+ 
+    #search {       text-align: center;       justify-content: 600px;       background-color: rgb(210, 0, 0);       width: 130px;       height: 50px;       margin-top: 3%;       margin-left: 700px;       border-radius: 20px; 
+font-family: verdana; font-size: 19px; color: white; 
+    } 
+ 
+    #button {       margin-left: 635px;       margin-bottom: 40px;       height: 35px;       width: 100px;       border-radius: 30px;       font-family: bookman old style;       font-size: 16px; 
+    } 
+ 
+    h2 {       margin-left: 675px;       font-family: tahoma;       font-weight: normal;       letter-spacing: 3px; color:white; 
+    }   #irctc {       margin-left: 565px;       font-family: tahoma;       font-weight: normal;       letter-spacing: 3px; color:white; 
+    } 
+    .table {       width: 550px;       height: 190px; text-align: center; 
+      margin-top: 0px;       margin-left: 20px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%);       overflow: hidden; 
+    } 
+ 
+    #image1 {       text-align: center;       width: 540px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image1:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    .table1 { width: 545px; height: 190px; text-align: center; margin-top: 0px; 
+      margin-left: 30px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%); 
+    } 
+ 
+    #image2 {       text-align: center;       width: 535px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image2:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    #special {       margin-left: 20px;       margin-top: 80px; 
+    } 
+ 
+    .spec { 
+ 
+box-shadow: 
+        0 0 0 2px hsl(0, 0%, 97%);       margin-left: 180px;       margin-right: 150px;       margin-top: 40px; 
+    } 
+ 
+    #pec {       margin-top: 0px;       margin-left: 20px; 
+    } 
+ 
+    #link {       font-family: verdana;       color: rgb(0, 0, 80);       text-align: right; 
+    } 
+ 
+    #link:hover {       color: rgb(150, 0, 0); 
+    } 
+ 
+    .specifications {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 80px; margin-top: 40px; margin-right: 80px; bottom: 0px; 
+    } 
+ 
+    #app {       font-family: Tahoma;       font-weight: normal;       text-transform: uppercase;       margin-top: 20px;       margin-left: 20px; 
+    } 
+     ul {       margin-left: 20px; 
+    } 
+ 
+    #app1 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+     p {       font-family: Verdana; 
+    }      li { 
+      font-family: Verdana; 
+    } 
+ 
+    #app4 { 
+font-family: Gadugi; 
+      margin-left: 0px;       letter-spacing: 1px; 
+    } 
+ 
+    #app6 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+ 
+    #app7 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+ 
+    .part {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 150px;       margin-top: 40px;       margin-right: 120px;       margin-bottom: 0px; 
+    } 
+ 
+    #part1 { font-family: Gadugi; left: 40px;       letter-spacing: 1px; 
+    } 
+ 
+    #image3 {       text-align: center;       width: 200px;       height: 200px;       margin-left: 90px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image3:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+ 
+    #image4 {       text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image4:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+ 
+    #image5 {       text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image5:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+ 
+    #image6 {       text-align: center;       width: 200px;       height: 200px;       margin-left: 5px; margin-top: 5px; bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image6:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+ 
+    #image7 {       text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image7:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+ 
+    #pack {       font-family: consolas;       margin-left: 100px; letter-spacing: 0px; 
+ 
+      font-weight: normal; 
+    } 
+ 
+    .download {       margin-left: 120px;       margin-top: 40px; 
+    } 
+ 
+    #playstore {       margin-left: 100px;       margin-top: 40px; 
+    } 
+ 
+    #apple {       margin-left: 0px;       margin-top: 40px; 
+    } 
+  </style> 
+</head> 
+ 
+<body> 
+  <div class="row"> 
+    <h2>Book Tickets</h2> 
+    <h2 id="irctc" > In Collaboration with IRCTC </h2>  
+    <input type="text" name="first" id="first" placeholder="Leaving From"> 
+    <input type="text" name="second" id="second" placeholder="Going To" /> 
+      <input placeholder="Date of Journey" type="text" onfocus="(this.type='date')" id="date"> 
+      <br /> 
+ 
+ 
+     <input type="button" value="Search" id="search" /> 
+  </div> 
+  <div class="spec"> 
+    <br /> 
+    <table> 
+      <tr> 
+        <td width="1000px"> 
+          <h2 id="pec">Special offers</h2> 
+        </td> 
+        <td width="200px"> 
+          <a id="link" href="localoffer.html">Veiw All Offers</a> 
+        </td> 
+      </tr> 
+    </table> 
+    <table> 
+      <tr> 
+        <td> 
+          <div class="table">             <img id="image1" src="C:\Users\Yashwanth\OneDrive\Pictures\train.jpg" /> 
+          </div> 
+        </td> 
+        <td> 
+          <div class="table1">             <img id="image2" src="C:\Users\Yashwanth\OneDrive\Pictures\train1.jpg" /> 
+          </div> 
+        </td> 
+    </table> 
+  </div> 
+  <div class="specifications"> 
+    <label for="app"> 
+      <h1 id="app">Specifications of our App</h1> 
+    </label> 
+    <ul> 
+      <li> 
+        <label for="app1"> 
+          <h2 id="app1">No Convenience Fee</h2> 
+        </label> 
+      </li> 
+      <label for="app2"> 
+        <p id="app2"> 
+        <ul type="square"> 
+          <li> 
+            Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure.           </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+          <li>Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure. 
+          </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+        </ul> 
+        </p> 
+      </label> 
+      <li> 
+        <label for="app4"> 
+          <h2 id="app4">Easy Booking</h2> 
+        </label> 
+        <label for="app5"> 
+          <p id="app5"> 
+          <ul type="square"> 
+            <li>A ticket is a voucher that indicates that an individual is entitled to admission 
+            </li> 
+            <li>An event or establishment such as a theatre, amusement park,or tourist attraction 
+            </li> 
+            <li>Has a right to travel on a vehicle, such as with an airline ticket, bus ticket or train ticket. 
+            </li> 
+            <li>An individual typically pays for a ticket, but it may be free of charge. 
+            </li> 
+            <li>A ticket may serve simply as proof of entitlement or reservation. 
+            </li> 
+            <li>A ticket may be valid for any seat (called "free seating" or "open seating"). 
+            </li> 
+            <li>For a specific one (called "allocated seating" or "reserved seating"). 
+            </li> 
+          </ul> 
+      </ul> 
+      <br /> 
+      <br /> 
+      </p> 
+  </div> 
+  <div class="download"> 
+    <table> 
+      <tr> 
+        <td rowspan="3"> 
+          <img src="C:\Users\Yashwanth\OneDrive\Pictures\traingif.gif" height="250px" width="400px" /> 
+        </td> 
+        <td colspan="3"> 
+          <h1 id="pack">Get Local App For Easy and Happy Ride</h1> 
+        </td> 
+        <td> 
+        </td> 
+        <td> 
+        </td> 
+      </tr> 
+      <tr> 
+        <td width="100px"> 
+          <a href="https://www.play.google.com"><img id="playstore"               src="C:\Users\Yashwanth\OneDrive\Pictures\google.png" width="200px" height="50px" /></a> 
+        </td> 
+        <td width="100px"> 
+          <a href="https://www.apple.com"><img id="apple" src="C:\Users\Yashwanth\OneDrive\Pictures\app.png"               width="200px" height="50px" /></a> 
+        </td> 
+      </tr> 
+    </table> 
+  </div> 
+  <hr> 
+</body> 
+ 
+</html> 
+ 
+Mybooking.html 
+<html>
+<head> <style> h1{ margin-left:600px; margin-top:235px; font-family:verdana; 
+} img{ margin-left:655px; height:300px; 
+ 
+} 
+</style> 
+</head> 
+<body> 
+<h1>oops! No tickets booked</h1><br /> 
+<img src="C:\Users\Yashwanth\OneDrive\Pictures\peigion.jpg" /> 
+</body> 
+</html> 
+ 
+Localoffers.html 
+<html> 
+<head> 
+<title>offers</title> 
+<style> h1{ font-family:verdana; 
+} 
+Table{
+Font-weight:normal; Color:black; font-family:verdana; 
+} 
+Tr{ 
+Height:300px; 
+} 
+Td{ 
+Width:400px; 
+Text-align:center; 
+} body{ 
+Background-image:url(""); 
+Background-repeat:no-repeat; 
+Background-size:cover; 
+Position:absolute; Left:50px; right:50px; 
+Top:100px; 
+} 
+#img1{ width:325px; height:200px; } 
+</style> 
+</head> 
+<body><center> 
+<p><h1>OFFERS ON BUS TICKETS</h1></p></center> <table>
+<tr> 
+<td width="500px" height="200px"><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\download-1.jpg"></td> <td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\download-
+2.jpg"></td> 
+<td><img  id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\download-
+3.jpg"></td> 
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+1.jpg"></td> 
+</tr> 
+<tr> 
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+2.jpg"></td> 
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+3.jpg"></td> 
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+4.jpg"></td> 
+<td><img id="img1" src="C:\Users\Yashwanth\OneDrive\Pictures\images-
+5.jpg"></td> </tr> 
+</table> 
+</body> 
+</html> 
+ 
+Non-local.html 
+<!DOCTYPE html> 
+<html> 
+ 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style>     .row {       margin-top: 0px;       background-image: linear-gradient(10deg, black, transparent), url("https://s3.rdbuz.com/Images/WL/CMS/KTCL/8.png");       background-repeat: no-repeat;       background-size: cover;       width: 1500px;       height: 350px;       overflow: hidden; 
+    } 
+ 
+    #first {       width: 320px;       height: 50px;       margin-left: 300px;       border-top-left-radius: 10px;       border-bottom-left-radius: 10px; 
+    } 
+ 
+    #second {       width: 320px;       height: 50px;       border-width: 2px; 
+    } 
+ 
+    #third { 
+      width: 35px;       height: 32px;       border-image-width: 20px;       object-position: 50% 50%; 
+    } 
+ 
+    input[placeholder] {       font-family: Comic Sans MS;       font-style: italic; 
+    } 
+ 
+    #date {       width: 200px;       height: 50px;       border-top-right-radius: 10px;       border-bottom-right-radius: 10px;       text-align: center; 
+    } 
+ 
+    #search {       text-align: center;       justify-content: 600px;       background-color: rgb(210, 0, 0);       width: 130px;       height: 50px;       margin-top: 2%;       margin-left: 0px; border-radius: 20px; font-family: verdana; 
+font-size: 19px; 
+      color: white; 
+    } 
+ 
+    #button {       margin-left: 545px;       margin-bottom: 40px;       height: 35px;       width: 100px;       border-radius: 30px;       font-family: bookman old style;       font-size: 16px; 
+    } 
+#button:hover{ background-color:rgb(185,0,0); color:white; } #button:active{ background-color:red; 
+}     h2 {       margin-left: 675px;       font-family: tahoma;       font-weight: normal;       letter-spacing: 3px; 
+    } 
+ 
+    #button1 { height: 35px; width: 150px; 
+      border-radius: 30px;       font-family: bookman old style;       font-size: 16px; 
+    } 
+#button1:hover{ background-color:rgb(185,0,0); color:white; } #button1:active{ background-color:red; }     #button2 {       height: 35px;       width: 100px;       border-radius: 30px;       font-family: bookman old style;       font-size: 16px; 
+    } 
+#button2:hover{ background-color:rgb(185,0,0); color:white; } #button2:active{ background-color:red; } 
+    #button3 { height: 35px; width: 100px; border-radius: 30px; 
+      font-family: bookman old style;       font-size: 16px; 
+    } 
+#button3:hover{ background-color:rgb(185,0,0); color:white; } #button3:active{ background-color:red; 
+} 
+    .table {       width: 550px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 20px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%);       overflow: hidden; 
+    } 
+ 
+    #image1 {       text-align: center;       width: 540px;       height: 180px; margin-left: 5px; margin-top: 5px; margin-bottom: 8px; 
+      margin-right: 5px; 
+    } 
+ 
+    #image1:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    .table1 {       width: 545px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 30px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%); 
+    } 
+ 
+    #image2 {       text-align: center;       width: 535px;       height: 180px;       margin-left: 5px;       margin-top: 5px; margin-bottom: 8px; margin-right: 5px; 
+    } 
+ 
+    #image2:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    #special {       margin-left: 20px;       margin-top: 80px; 
+    } 
+ 
+    .spec {       box-shadow:         0 0 0 2px hsl(0, 0%, 97%);       margin-left: 180px;       margin-right: 150px;       margin-top: 40px; 
+    } 
+ 
+    #pec {       margin-top: 0px;       margin-left: 20px; 
+    } 
+ 
+    #link { font-family: verdana; color: rgb(0, 0, 80); text-align: right; 
+    } 
+ 
+    #link:hover {       color: rgb(150, 0, 0); 
+    } 
+ 
+    .specifications {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 80px;       margin-top: 40px;       margin-right: 80px;       margin-bottom: 0px; 
+    } 
+ 
+    #app {       font-family: Tahoma;       font-weight: normal;       text-transform: uppercase;       margin-top: 20px;       margin-left: 20px; 
+    } 
+     ul {       margin-left: 20px; 
+    } 
+ 
+    #app1 { 
+font-family: Gadugi; 
+      margin-left: 0px;       letter-spacing: 1px; 
+    } 
+     p {       font-family: Verdana; 
+    }      li { 
+      font-family: Verdana; 
+    } 
+ 
+    #app4 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+#app6 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+#app7 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+.part { 
+box-shadow: 
+        0 0 0 2px hsl(10, 20%, 97%);       margin-left: 150px;       margin-top: 40px;       margin-right: 120px;       margin-bottom: 0px; 
+    } 
+#part1{       font-family: Gadugi;       margin-left: 40px;       letter-spacing: 1px; 
+    } 
+#image3 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 90px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image3:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+#image4 { 
+      text-align: center; 
+width: 200px; 
+      height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image4:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+#image5 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image5:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+#image6 { 
+text-align: center; 
+      width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image6:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+#image7 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image7:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+#pack {       font-family: consolas;       margin-left: 100px;       letter-spacing: 0px; font-weight:normal; 
+    } 
+.download{ margin-left:120px; margin-top:40px; 
+} 
+#playstore{ margin-left:100px; margin-top:40px; 
+} 
+#apple{ margin-left:0px; margin-top:40px; 
+} 
+  </style> 
+</head> 
+ 
+<body> 
+  <div class="row"> 
+    <h2>Book Tickets</h2> 
+    <a href="localbottom.html" target="_"><input id="button" type="button" value="Bus" /></a> 
+    <a href="auto.html" target="_"><input type="button" id="button1" value="Auto-Rickshaw" /></a> 
+    <a href="non-localhotel.html"><input type="button" id="button2" value="Hotel" /></a> 
+    <a href="rentals.html"><input type="button" id="button3" value="Rentals" 
+/></a><br /> 
+    <input type="text" name="first" id="first" placeholder="Leaving 
+From"><input type="text" name="second" id="second" placeholder="Going To" /><input placeholder="Date of Journey" type="text" onfocus="(this.type='date')" id="date"> 
+      <br /> 
+      <center><a href="search.html"><input type="button" value="Search" id="search" /></a></center> 
+  </div> 
+  <div class="spec"> 
+    <br /> 
+    <table> 
+      <tr> 
+        <td width="1000px"> 
+          <h2 id="pec">Special offers</h2> 
+        </td> 
+        <td width="200px"> 
+          <a id="link" href="localoffer.html">Veiw All Offers</a> 
+        </td> 
+      </tr> 
+    </table> 
+    <table> 
+      <tr> 
+        <td> 
+          <div class="table"> 
+            <img id="image1" src="C:\Users\Yashwanth\OneDrive\Pictures\busoffer.jpg" /> 
+          </div> 
+        </td> 
+        <td> 
+          <div class="table1">             <img id="image2" src="C:\Users\Yashwanth\OneDrive\Pictures\offer3.jpg" /> 
+          </div> 
+        </td> 
+    </table> 
+  </div> 
+<div class="part"> 
+<h2 id="part1">Book Government Bus Ticket on Local App</h2> 
+<table> 
+<tr> 
+<td><img id="image3" src="C:\Users\Yashwanth\OneDrive\Pictures\apsrtc.jpg" /></td> 
+<td><img id="image4" src="C:\Users\Yashwanth\OneDrive\Pictures\tsrtc.jpg" 
+/></td> 
+<td><img id="image5" src="C:\Users\Yashwanth\OneDrive\Pictures\kesrtc.jpg" /></td> 
+<td><img id="image6" src="C:\Users\Yashwanth\OneDrive\Pictures\ksrtc.jpg" 
+/></td> 
+<td><img id="image7" src="C:\Users\Yashwanth\OneDrive\Pictures\gsrtc.jpg" 
+/></td> 
+</tr> 
+</table> 
+</div> 
+  <div class="specifications"> 
+    <label for="app"> 
+      <h1 id="app">Specifications of our App</h1> 
+    </label> 
+    <ul> 
+      <li> 
+        <label for="app1"> 
+          <h2 id="app1">No Convenience Fee</h2> 
+        </label> 
+      </li> 
+      <label for="app2"> 
+        <p id="app2"> 
+        <ul type="square"> 
+          <li> 
+            Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure.           </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+          <li>Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure. 
+          </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+        </ul> 
+        </p> 
+      </label> 
+      <li> 
+        <label for="app4"> 
+          <h2 id="app4">Easy Booking</h2> 
+        </label> 
+        <label for="app5"> 
+          <p id="app5"> 
+          <ul type="square"> 
+            <li>A ticket is a voucher that indicates that an individual is entitled to admission 
+            </li> 
+            <li>An event or establishment such as a theatre, amusement park,or tourist attraction 
+            </li> 
+            <li>Has a right to travel on a vehicle, such as with an airline ticket, bus ticket or train ticket. 
+            </li> 
+            <li>An individual typically pays for a ticket, but it may be free of charge. 
+            </li> 
+            <li>A ticket may serve simply as proof of entitlement or reservation. 
+            </li> 
+            <li>A ticket may be valid for any seat (called "free seating" or "open seating"). 
+            </li> 
+            <li>For a specific one (called "allocated seating" or "reserved seating"). 
+            </li> 
+          </ul> 
+<li> 
+<h2 id="app6"> 
+Exciting Offers 
+</h2> 
+<p> 
+<ul> 
+<li> 
+Sales promotion is one of the elements of the promotional mix. 
+</li> 
+<li> The primary elements in the promotional mix are advertising  
+</li> 
+<li>Personal selling, direct marketing and publicity/public relations.  
+</li> 
+<li>Sales promotion uses both media and non-media marketing communications.  
+</li> 
+<li>A pre-determined, limited time to increase consumer demand, stimulate.  
+</li> 
+<li>Market demand or improve product availability.  
+</li> 
+<li>Examples include contests, coupons, freebies, loss leaders, point of purchase displays, premiums, prizes, product samples, and rebates. 
+</li> 
+<li> 
+Sales promotions can be directed at either the customer, sales staff, or distribution  
+</li><li>Channel members (such as retailers).  
+</li><li>Sales promotions targeted at the consumer are called consumer sales promotions.  
+</li><li>Sales promotions targeted at retailers and wholesale are called trade sales promotions. 
+</li> 
+</ul> 
+<li> 
+<h2 id="app7"> 
+Primo Certified Buses 
+</h2> 
+</li> 
+<p> 
+<ul> 
+<li> 
+VIA Primo (stylized as prímo) is a bus rapid transit service operated.   
+</li><li>VIA Metropolitan Transit in San Antonio, Texas.  
+</li><li>As of January 2019, it comprises three lines.  
+</li><li>Route 100 runs along the Fredericksburg  
+</li><li>Road corridor, from the Medical Center Transit Center.  
+</li><li>The vicinity of the South Texas Medical Center, to Downtown San Antonio.  
+</li><li>Route 102 serves Military Drive between Kel-Lac Transit Center and Brooks Transit Center.  
+</li><li>Route 103 travels on Fredericksburg Road and Zarzamora Street from Crossroads Park & Ride to the Madla Transit Center. 
+</li> 
+<li>From October 2016 to September 2017, Primo accounted for about 5% of total VIA ridership.  
+</li><li>Route 100 was the second-busiest line in the VIA system, with a ridership of 1,784,796 during that timespan. 
+</li><li>In May 2019, Primo had an average weekday ridership of 9,280, or about 8.7% of the overall VIA bus average.  
+</li><li>Route 100 had a slightly higher average than Route 103 (4,833 vs. 
+4,447). 
+</li> 
+</ul> 
+          <br /> 
+<br /> 
+          </p> 
+  </div> 
+<div class="download"> 
+<table> 
+<tr> 
+<td rowspan="3"> 
+<img src="C:\Users\Yashwanth\OneDrive\Pictures\busgif.gif" height="250px" width="400px"/> 
+</td> 
+<td colspan="3"> 
+<h1 id="pack">Get Local App For Easy and Happy Ride</h1> 
+</td> 
+<td> 
+</td> 
+<td> 
+</td> 
+</tr> 
+<tr> 
+<td width="100px"> 
+<a href="https://www.play.google.com"><img id="playstore" src="C:\Users\Yashwanth\OneDrive\Pictures\google.png" width="200px" height="50px"/></a> 
+</td> 
+<td width="100px"> 
+<a href="https://www.apple.com"><img id="apple" src="C:\Users\Yashwanth\OneDrive\Pictures\app.png" width="200px" height="50px"/></a> 
+</td> 
+</tr> 
+</table> 
+</div> 
+<hr> 
+<div class="end"> 
+<img width="1500px" src="C:\Users\Yashwanth\OneDrive\Documents\TOC\down.png" /> 
+</div> 
+</body> 
+ 
+</html> 
+ 
+Non-localhotel.html 
+ 
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style> .head{ background-color:rgb(0,0,0); 
+} #top{ margin-left:100px;       font-family: verdana;       font-weight: bold;       letter-spacing: 2px; color:white; 
+} .row {      background-color:rgb(100,150,110);       overflow: hidden; 
+    } h1 {       margin-left: 575px;       font-family: tahoma;       font-weight: bold;       letter-spacing: 3px; color:white; 
+    } 
+.border{ border-width:20px; color:white; } 
+    #first {       width: 380px;       height: 70px;       margin-left: 150px;       border-top-left-radius: 0px;       border-bottom-left-radius: 0px; border-width:1px; 
+    } 
+    input[placeholder] {       font-family: Comic Sans MS;       font-style: italic; 
+    } 
+ 
+    #date {       width: 200px; height: 70px; text-align: center; border-width:1px; 
+    } 
+ 
+    #number{       width: 200px;       height: 70px;       margin-left: 0px;       border-top-left-radius: 0px;       border-bottom-left-radius: 0px;       border-width:1px; 
+    } 
+    #search {       background-color: rgb(210, 0, 0);       width: 150px;       height: 75px;       margin-left: 0px;       margin-top:50px;  font-size: 10px;       font-family: verdana;       color: white; border-width:0px; 
+    } 
+    .table {       width: 550px;       height: 190px;       text-align: center;       margin-top: 0px; 
+margin-left: 20px; margin-bottom: 20px; box-shadow: 
+        0 0 0 2px hsl(0, 0%, 95%);       overflow: hidden; 
+    } .hotels{ box-shadow:0 0 0 2px hsl(0,0%,95%); margin-left:100px; margin-right:100px; 
+} 
+ 
+    #image1 {     text-align: center;       width: 540px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image1:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    .table1 { width: 545px; height: 190px; text-align: center; 
+      margin-top: 0px;       margin-left: 30px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%); 
+    } 
+ 
+    #image2 {       text-align: center;       width: 535px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image2:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+   #you{ color:black; margin-left:0px; font-weight:normal; 
+} 
+    #special {       margin-left: 20px;       margin-top: 80px; 
+    } 
+ 
+    .spec {       box-shadow:         0 0 0 2px hsl(0, 0%, 97%);       margin-left: 180px;       margin-right: 150px;       margin-top: 40px; 
+    } 
+#hot1{ font-family:Times New Roman; text-align:center; font-weight:bold; } #hot2{ font-family:Times New Roman; text-align:center; font-weight:bold; } #hot3{ font-family:Times New Roman; text-align:center; font-weight:bold; } #hot4{ font-family:Times New Roman; text-align:center; font-weight:bold; }     #pec {       margin-top: 0px;       margin-left: 20px; color:black; 
+    } 
+ 
+    #link {       font-family: verdana;       color: rgb(0, 0, 80);       text-align: right; 
+    } 
+ 
+    #link:hover {       color: rgb(150, 0, 0); 
+    } 
+ 
+    .specifications {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 80px;       margin-top: 40px;       margin-right: 80px;       margin-bottom: 0px; 
+    } 
+ 
+    #app { 
+      font-family: Tahoma;       font-weight: normal;       text-transform: uppercase;       margin-top: 20px;       margin-left: 20px; color:black; 
+    } 
+     ul {       margin-left: 20px; 
+    } 
+ 
+    #app1 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+     p {       font-family: Verdana; 
+    }      li { 
+      font-family: Verdana; 
+    } 
+ 
+    #app4 {       font-family: Gadugi; margin-left: 0px;       letter-spacing: 1px; 
+    } 
+#app6 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+#app7 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } .part {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 150px;       margin-top: 40px;       margin-right: 120px;       margin-bottom: 0px; 
+    } 
+#part1{       font-family: Gadugi;       margin-left: 40px;       letter-spacing: 1px; 
+    } 
+#image3 { 
+      text-align: center;       width: 280px; height: 175px; margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image3:hover {       border-style: outset;       transform: scale(1.07); 
+    } 
+#image4 { 
+        text-align: center;       width: 280px;       height: 175px; margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+    #image4:hover {       border-style: outset;       transform: scale(1.07); 
+    } 
+#image5 { 
+        text-align: center;       width: 280px;       height: 175px; margin-left:30px; margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+    #image5:hover {       border-style: outset;       transform: scale(1.07); 
+    } 
+#image6 { 
+       text-align: center;       width: 280px;       height: 175px;       margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+    #image6:hover {       border-style: outset;       transform: scale(1.07); 
+    } 
+#image7 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image7:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+#pack {       font-family: consolas;       margin-left: 100px;       letter-spacing: 0px; font-weight:normal; color:black; 
+    } 
+.download{ margin-left:120px; margin-top:40px; 
+} #playstore{ margin-left:100px; margin-top:40px; 
+} #apple{ margin-left:0px; margin-top:40px; 
+} 
+  </style> 
+</head> 
+ 
+<body> 
+<div class="head"> 
+<br /> 
+<h2 id="top">Local.com</h2> 
+<br /> 
+</div> 
+  <div class="row"> 
+    <h1>Book Your Next Stay</h1> 
+<div class="border"> 
+   <input type="text" id="first" placeholder="Where your travelling to"><input placeholder="Check-in" type="text" onfocus="(this.type='date')" id="date"><input placeholder="Check-out" type="text" onfocus="(this.type='date')" id="date"><input type="number" min="1" id="number" placeholder="No.of people staying" /><input type="button" value="Search" id="search"/> 
+  </div> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+</div> 
+  <div class="spec"> 
+    <br /> 
+    <table> 
+      <tr> 
+        <td width="1000px"> 
+          <h1 id="pec">Special offers</h1> 
+        </td> 
+        <td width="200px"> 
+          <a id="link" href="localoffer.html">Veiw All Offers</a> 
+        </td> 
+      </tr> 
+    </table> 
+    <table> 
+      <tr> 
+        <td> 
+          <div class="table">             <img id="image1" src="C:\Users\Yashwanth\OneDrive\Pictures\offer1.jpg" /> 
+          </div> 
+        </td> 
+        <td> 
+          <div class="table1">             <img id="image2" src="C:\Users\Yashwanth\OneDrive\Pictures\offer2.jpg" /> 
+          </div> 
+        </td> 
+    </table> 
+  </div> 
+<div class="hotels"> 
+<h1 id="you">Type of Hotel you want</h1> 
+<table> 
+<tr> 
+<td  ><img id="image3" src="C:\Users\Yashwanth\OneDrive\Pictures\h1.jpg"  
+/> 
+</td> 
+<td  ><img id="image4" src="C:\Users\Yashwanth\OneDrive\Pictures\apart.jpg"  /> </td> 
+<td  > 
+<img id="image5" src="C:\Users\Yashwanth\OneDrive\Pictures\villa.jpg" /> 
+</td> <td > 
+<img id="image6" src="C:\Users\Yashwanth\OneDrive\Pictures\resort.jpg"  /> 
+</td> 
+</tr> 
+<tr> 
+<td id="hot1"> 
+Hotel 
+</td> 
+<td id="hot2"> 
+Apartment Hotel 
+</td> 
+<td id="hot3"> 
+Villa 
+</td> 
+<td id="hot4"> 
+Resort 
+</td> 
+</tr></table> 
+</div> 
+  <div class="specifications"> 
+    <label for="app"> 
+      <h1 id="app">Specifications of our App</h1> 
+    </label> 
+    <ul> 
+      <li> 
+        <label for="app1"> 
+          <h2 id="app1">No Convenience Fee</h2> 
+        </label> 
+      </li> 
+      <label for="app2"> 
+        <p id="app2"> 
+        <ul type="square"> 
+          <li> 
+            Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure.           </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+          <li>Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets.           </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure. 
+          </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+        </ul> 
+        </p> 
+      </label> 
+      <li> 
+        <label for="app4"> 
+          <h2 id="app4">Easy Booking</h2> 
+        </label> 
+        <label for="app5"> 
+          <p id="app5"> 
+          <ul type="square"> 
+            <li>A ticket is a voucher that indicates that an individual is entitled to admission 
+            </li> 
+            <li>An event or establishment such as a theatre, amusement park,or tourist attraction 
+            </li> 
+            <li>Has a right to travel on a vehicle, such as with an airline ticket, bus ticket or train ticket. 
+            </li> 
+            <li>An individual typically pays for a ticket, but it may be free of charge. 
+            </li> 
+            <li>A ticket may serve simply as proof of entitlement or reservation. 
+            </li> 
+            <li>A ticket may be valid for any seat (called "free seating" or "open seating"). 
+            </li> 
+            <li>For a specific one (called "allocated seating" or "reserved seating"). 
+            </li> 
+          </ul> 
+<li> 
+<h2 id="app6"> 
+Exciting Offers 
+</h2> 
+<p> 
+<ul> 
+<li> 
+Sales promotion is one of the elements of the promotional mix. 
+</li> 
+<li> The primary elements in the promotional mix are advertising  
+</li> 
+<li>Personal selling, direct marketing and publicity/public relations.  
+</li> 
+<li>Sales promotion uses both media and non-media marketing communications.  
+</li> 
+<li>A pre-determined, limited time to increase consumer demand, stimulate.  
+</li> 
+<li>Market demand or improve product availability.  
+</li> 
+<li>Examples include contests, coupons, freebies, loss leaders, point of purchase displays, premiums, prizes, product samples, and rebates. 
+</li> 
+<li> 
+Sales promotions can be directed at either the customer, sales staff, or distribution  
+</li><li>Channel members (such as retailers).  
+</li><li>Sales promotions targeted at the consumer are called consumer sales promotions.  
+</li><li>Sales promotions targeted at retailers and wholesale are called trade sales promotions. 
+</li> 
+</ul> 
+ 
+          <br /> 
+<br /> 
+          </p> 
+  </div> 
+<div class="download"> 
+<table> 
+<tr> 
+<td rowspan="3"> 
+<img src="C:\Users\Yashwanth\OneDrive\Pictures\hotelgif.gif" height="200px" width="300px"/> 
+</td> 
+<td colspan="3"> 
+<h1 id="pack">Get Local App For Easy and Happy Ride</h1> 
+</td> 
+<td> 
+</td> 
+<td> 
+</td> 
+</tr> 
+<tr> 
+<td width="100px"> 
+<a href="https://www.play.google.com"><img id="playstore" src="C:\Users\Yashwanth\OneDrive\Pictures\google.png" width="200px" height="50px"/></a> 
+</td> 
+<td width="100px"> 
+<a href="https://www.apple.com"><img id="apple" src="C:\Users\Yashwanth\OneDrive\Pictures\app.png" width="200px" height="50px"/></a> 
+</td> 
+</tr> 
+</table> 
+</div> 
+<hr> 
+</body> 
+ 
+</html> 
+ 
+Rentals.html 
+ 
+<html> 
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style> .head{ background-color:lightpink; 
+} #top{ margin-left:100px;       font-family: verdana;       font-weight: bold;       letter-spacing: 2px; color:white; 
+} .row {      background-color:skyblue;       overflow: hidden; 
+    } 
+h1 {       margin-left: 575px;       font-family: Mongolian Baiti;       font-weight: bold;       letter-spacing: 3px; color:white; 
+    } 
+.border{ margin-top:50px; border:10px rgb(80,80,80) solid; color:white; margin-left:176px; margin-right:177px; border-radius:10px; 
+} 
+    #first {       width: 380px;       height: 70px;       margin-left: 0px; margin-top:0px;       border-top-left-radius: 0px;       border-bottom-left-radius: 0px; border-width:1px; 
+    } 
+    input[placeholder] {       font-family: verdana;       font-style: italic; 
+    } 
+ 
+    #date {       width: 200px;       height: 70px;       text-align: center;       border-width:1px; 
+    } 
+ 
+    #number{ width: 200px;       height: 70px;       margin-left: 0px;       border-top-left-radius: 0px;       border-bottom-left-radius: 0px;       border-width:1px; 
+    } 
+    #search {       background-color: rgb(210, 0, 0);       width: 150px;       height: 71px;       margin-left: 0px;       margin-top:0px;  font-size: 10px;       font-family: verdana;       color: white; border-width:0px; 
+    } 
+    .table {       width: 550px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 20px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%);       overflow: hidden; 
+    } 
+.hotels{ 
+box-shadow:0 0 0 2px hsl(0,0%,95%); margin-left:100px; margin-right:100px; 
+} 
+ 
+    #image1 {     text-align: center;       width: 540px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image1:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    .table1 {       width: 545px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 30px;       margin-bottom: 20px; box-shadow: 
+        0 0 0 2px hsl(0, 0%, 95%); 
+    } 
+ 
+    #image2 {       text-align: center;       width: 535px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image2:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+   #you{ color:black; margin-left:0px; font-weight:normal; }     #special {       margin-left: 20px;       margin-top: 80px; 
+    } 
+ 
+ 
+    .spec {       box-shadow:         0 0 0 2px hsl(0, 0%, 97%);       margin-left: 180px;       margin-right: 150px;       margin-top: 40px; 
+    } 
+#hot1{ font-family:tahoma; text-align:center; font-weight:bold; } #hot2{ font-family:tahoma; text-align:center; font-weight:bold; } #hot3{ font-family:tahoma; text-align:center; font-weight:bold; } #hot4{ font-family:tahoma; text-align:center; font-weight:bold; } 
+    #pec { top: 0px; margin-left: 20px; 
+color:black; 
+    } 
+ 
+    #link {       font-family: verdana;       color: rgb(0, 0, 80);       text-align: right; 
+    } 
+ 
+    #link:hover {       color: rgb(150, 0, 0); 
+    } 
+ 
+    .specifications {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 80px;       margin-top: 40px;       margin-right: 80px;       margin-bottom: 0px; 
+    } 
+ 
+    #app {       font-family: Tahoma;       font-weight: normal;       text-transform: uppercase;       margin-top: 20px; left: 20px; 
+color:black; 
+    } 
+     ul {       margin-left: 20px; 
+    } 
+ 
+    #app1 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+     p {       font-family: Verdana; 
+    }      li { 
+      font-family: Verdana; 
+    } 
+ 
+    #app4 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+#app6 {       font-family: Gadugi; left: 0px; 
+ 
+letter-spacing: 1px; 
+} #app7 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } .part {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 150px;       margin-top: 40px;       margin-right: 120px;       margin-bottom: 0px; 
+    } 
+#part1{       font-family: Gadugi;       margin-left: 40px;       letter-spacing: 1px; 
+    } 
+#image3 { 
+      text-align: center;       width: 280px;       height: 175px; margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+#image3:hover { 
+      border-style: outset;       transform: scale(1.07); 
+    } 
+#image4 { 
+        text-align: center;       width: 280px;       height: 175px; margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+    #image4:hover {       border-style: outset;       transform: scale(1.07); 
+    } 
+#image5 { 
+        text-align: center;       width: 280px;       height: 175px; margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+    #image5:hover {       border-style: outset; transform: scale(1.07); 
+} #image6 { 
+       text-align: center;       width: 280px;       height: 175px;       margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+    #image6:hover {       border-style: outset;       transform: scale(1.07); 
+    } 
+#image7 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image7:hover {       border-style: outset;       height: 200px;       transform: scale(1.07);     } 
+#pack {       font-family: consolas;       margin-left: 100px;       letter-spacing: 0px; font-weight:normal; color:black; 
+    } 
+.download{ margin-left:120px; margin-top:40px; 
+} #playstore{ margin-left:100px; margin-top:40px; 
+} #apple{ margin-left:0px; margin-top:40px; 
+} 
+  </style> 
+</head> 
+ 
+<body> 
+<div class="head"> 
+<br /> 
+<h2 id="top">Local.com</h2> 
+<br /> 
+</div> 
+  <div class="row"> 
+    <h1>Book Your Next Ride</h1> 
+<div class="border"> 
+   <input type="text" id="first" placeholder="Where your travelling to"><input placeholder="Check-in" type="text" onfocus="(this.type='date')" id="date"><input placeholder="Check-out" type="text" onfocus="(this.type='date')" id="date"><input type="number" min="1" id="number" placeholder="No.of people staying" /><input type="button" value="Search" id="search"/> 
+  </div> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+</div> 
+  <div class="spec"> 
+    <br /> 
+    <table> 
+      <tr> 
+        <td width="1000px"> 
+          <h1 id="pec">Special offers</h1> 
+        </td> 
+        <td width="200px"> 
+          <a id="link" href="localoffer.html">Veiw All Offers</a> 
+        </td> 
+      </tr> 
+    </table> 
+    <table> 
+      <tr> 
+        <td> 
+          <div class="table">             <img id="image1" src="C:\Users\Yashwanth\OneDrive\Pictures\rental1.jpg" /> 
+          </div> 
+        </td> 
+        <td> 
+          <div class="table1">             <img id="image2" src="C:\Users\Yashwanth\OneDrive\Pictures\rental.jpg" /> 
+          </div> 
+        </td> 
+    </table> 
+  </div> 
+<div class="hotels"> 
+<h1 id="you">Type of Vehicle you want</h1> 
+<table> 
+<tr> 
+<td  ><img id="image3" src="C:\Users\Yashwanth\OneDrive\Pictures\car.jpg"  
+/> 
+</td> 
+<td  ><img id="image4" src="C:\Users\Yashwanth\OneDrive\Pictures\bike.png"  /> 
+</td> 
+<td  > 
+<img id="image5" src="C:\Users\Yashwanth\OneDrive\Pictures\tempo.jpg" /> 
+</td> 
+<td > 
+<img id="image6" src="C:\Users\Yashwanth\OneDrive\Pictures\tempo1.jpg"  
+/> 
+</td> 
+</tr> 
+<tr> 
+<td id="hot1"> 
+Car 
+</td> 
+<td id="hot2"> 
+Bike 
+</td> 
+<td id="hot3"> 
+Traveller 
+</td> 
+<td id="hot4"> 
+Tempo 
+</td> 
+</tr></table> 
+</div> 
+  <div class="specifications"> 
+    <label for="app"> 
+      <h1 id="app">Specifications of our App</h1> 
+    </label> 
+    <ul> 
+      <li> 
+        <label for="app1"> 
+          <h2 id="app1">No Convenience Fee</h2> 
+        </label> 
+      </li> 
+      <label for="app2"> 
+        <p id="app2"> 
+        <ul type="square"> 
+          <li> 
+            Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure.           </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+          <li>Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure. 
+          </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+        </ul> 
+        </p> 
+      </label> 
+      <li> 
+        <label for="app4"> 
+          <h2 id="app4">Easy Booking</h2> 
+        </label> 
+        <label for="app5"> 
+          <p id="app5"> 
+          <ul type="square"> 
+            <li>A ticket is a voucher that indicates that an individual is entitled to admission 
+            </li> 
+            <li>An event or establishment such as a theatre, amusement park,or tourist attraction 
+            </li> 
+            <li>Has a right to travel on a vehicle, such as with an airline ticket, bus ticket or train ticket. 
+            </li> 
+            <li>An individual typically pays for a ticket, but it may be free of charge. 
+            </li> 
+            <li>A ticket may serve simply as proof of entitlement or reservation. 
+            </li> 
+            <li>A ticket may be valid for any seat (called "free seating" or "open seating"). 
+            </li> 
+            <li>For a specific one (called "allocated seating" or "reserved seating"). 
+            </li> 
+          </ul> 
+<li> 
+<h2 id="app6"> 
+Exciting Offers 
+</h2> 
+<p> 
+<ul> 
+<li> 
+Sales promotion is one of the elements of the promotional mix. 
+</li> 
+<li> The primary elements in the promotional mix are advertising  
+</li> 
+<li>Personal selling, direct marketing and publicity/public relations.  
+</li> 
+<li>Sales promotion uses both media and non-media marketing communications.  
+</li> 
+<li>A pre-determined, limited time to increase consumer demand, stimulate.  
+</li> 
+<li>Market demand or improve product availability.  
+</li> 
+<li>Examples include contests, coupons, freebies, loss leaders, point of purchase displays, premiums, prizes, product samples, and rebates. 
+</li> 
+<li> 
+Sales promotions can be directed at either the customer, sales staff, or distribution  
+</li><li>Channel members (such as retailers).  
+</li><li>Sales promotions targeted at the consumer are called consumer sales promotions.  
+</li><li>Sales promotions targeted at retailers and wholesale are called trade sales promotions. 
+</li> 
+</ul> 
+ 
+          <br /> 
+<br /> 
+          </p> 
+  </div> 
+<div class="download"> 
+<table> 
+<tr> 
+<td rowspan="3"> 
+<img src="C:\Users\Yashwanth\OneDrive\Pictures\rentalgif.gif" height="200px" width="300px"/> 
+</td> 
+<td colspan="3"> 
+<h1 id="pack">Get Local App For Easy and Happy Ride</h1> 
+</td> 
+<td> 
+</td> 
+<td> 
+</td> 
+</tr> 
+<tr> 
+<td width="100px"> 
+<a href="https://www.play.google.com"><img id="playstore" src="C:\Users\Yashwanth\OneDrive\Pictures\google.png" width="200px" height="50px"/></a> 
+</td> 
+<td width="100px"> 
+<a href="https://www.apple.com"><img id="apple" src="C:\Users\Yashwanth\OneDrive\Pictures\app.png" width="200px" height="50px"/></a> 
+</td> 
+</tr> 
+</table> 
+</div> 
+<hr> 
+</body> 
+ 
+</html> 
+ 
+Auto.html 
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style>     .row {       margin-top: 0px; background-image: linear-gradient(10deg, black, transparent), 
+url(https://1.bp.blogspot.com/-
+_GUEX116f8Q/Wy56Mmx21uI/AAAAAAAASdQ/9qCKEe6nLVMswtTlH5S
+3hpFpheyQxI1DgCLcBGAs/w680/asia-asian-auto-243108.jpg);       background-repeat: no-repeat;       background-size: cover;       width: 1500px;       height: 350px;       overflow: hidden; 
+    } 
+ 
+    #first {       width: 420px;       height: 60px;       margin-left: 100px; margin-top:60px;       border-top-left-radius: 10px;       border-bottom-left-radius: 10px; 
+    } 
+ 
+    #second {        width: 420px;       height: 60px;       border-width: 2px; 
+    } 
+    input[placeholder] {       font-family:tahoma ;       font-style: italic; 
+} 
+ 
+    #date {        width: 420px;       height: 60px;       border-top-right-radius: 10px;       border-bottom-right-radius: 10px;       text-align: center; 
+    } 
+ 
+    #search {       text-align: center;       justify-content: 600px;       background-color: rgb(210, 0, 0);       width: 170px;       height: 60px;       margin-top: 3%;       margin-left: 700px;       border-radius: 20px;       font-family: verdana;       font-size: 19px;       color: white; 
+    } 
+ 
+    #button {       margin-left: 635px;       margin-bottom: 40px;       height: 35px;       width: 100px;       border-radius: 30px; font-family: bookman old style; 
+      font-size: 16px; 
+    } 
+ 
+    h2 {       margin-left: 675px;       font-family: tahoma;       font-weight: normal;       letter-spacing: 3px; color:white; 
+    }   #irctc {       margin-left: 565px;       font-family: tahoma;       font-weight: normal;       letter-spacing: 3px; color:white; 
+    } 
+    .table {       width: 550px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 20px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%);       overflow: hidden; 
+} 
+ 
+    #image1 {       text-align: center;       width: 540px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image1:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    .table1 {       width: 545px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 30px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%); 
+    } 
+ 
+    #image2 { 
+text-align: center; 
+      width: 535px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image2:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    #special {       margin-left: 20px;       margin-top: 80px; 
+    } 
+ 
+    .spec {       box-shadow:         0 0 0 2px hsl(0, 0%, 97%);       margin-left: 180px;       margin-right: 150px;       margin-top: 40px; 
+    } 
+ 
+#pec { 
+      margin-top: 0px;       margin-left: 20px; 
+    } 
+ 
+    #link {       font-family: verdana;       color: rgb(0, 0, 80);       text-align: right; 
+    } 
+ 
+    #link:hover {       color: rgb(150, 0, 0); 
+    } 
+ 
+    .specifications {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 80px;       margin-top: 40px;       margin-right: 80px;       margin-bottom: 0px; 
+    } 
+ 
+    #app {       font-family: Tahoma;       font-weight: normal;       text-transform: uppercase;       margin-top: 20px; margin-left: 20px; 
+    } 
+     ul {       margin-left: 20px; 
+    } 
+ 
+    #app1 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; color:black; 
+    } 
+     p {       font-family: Verdana; 
+    }      li { 
+      font-family: Verdana; 
+    } 
+ 
+    #app4 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; color:black; 
+    } 
+ 
+#app6 { 
+      font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; color:black; 
+    } 
+ 
+    #app7 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+ 
+    .part {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 150px;       margin-top: 40px;       margin-right: 120px;       margin-bottom: 0px; 
+    } 
+ 
+    #part1 {       font-family: Gadugi;       margin-left: 40px;       letter-spacing: 1px; 
+    } 
+ 
+    #image3 { text-align: center; width: 200px; 
+      height: 200px;       margin-left: 90px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image3:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+ 
+    #image4 {       text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image4:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+} 
+ 
+    #image5 {       text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image5:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+ 
+    #image6 {       text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image6:hover { border-style: outset; height: 200px; 
+      transform: scale(1.07); 
+    } 
+ 
+    #image7 {       text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image7:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+ 
+    #pack {       font-family: consolas;       margin-left: 100px;       letter-spacing: 0px;       font-weight: normal; 
+    } 
+ 
+    .download {       margin-left: 120px; margin-top: 40px; 
+    } 
+ 
+    #playstore {       margin-left: 100px;       margin-top: 40px; 
+    } 
+ 
+    #apple {       margin-left: 0px;       margin-top: 40px; 
+    } 
+  </style> 
+</head> 
+ 
+<body> 
+  <div class="row"> 
+    <h2>Book Tickets</h2> 
+    <h2 id="irctc" > In Collaboration with Ola </h2>  
+    <input type="text" name="first" id="first" placeholder="Leaving From"> 
+    <input type="text" name="second" id="second" placeholder="Going To" /> 
+      <input placeholder="Date of Journey" type="text" onfocus="(this.type='date')" id="date"> 
+      <br /> 
+     <input type="button" value="Search" id="search" /> 
+  </div> 
+  <div class="spec"> 
+    <br /> 
+    <table> 
+<tr> 
+        <td width="1000px"> 
+          <h2 id="pec">Special offers</h2> 
+        </td> 
+        <td width="200px"> 
+          <a id="link" href="localoffer.html">Veiw All Offers</a> 
+        </td> 
+      </tr> 
+    </table> 
+    <table> 
+      <tr> 
+        <td> 
+          <div class="table">             <img id="image1" src="C:\Users\Yashwanth\OneDrive\Pictures\ola.jpg" /> 
+          </div> 
+        </td> 
+        <td> 
+          <div class="table1">             <img id="image2" src="C:\Users\Yashwanth\OneDrive\Pictures\ola1.jpg" /> 
+          </div> 
+        </td> 
+    </table> 
+  </div> 
+  <div class="specifications"> 
+    <label for="app"> 
+      <h1 id="app">Specifications of our App</h1> 
+    </label> 
+    <ul> 
+      <li> 
+        <label for="app1"> 
+          <h2 id="app1">Vaccinated Auto Drivers</h2> 
+        </label> 
+      </li> 
+      <label for="app2"> 
+        <p id="app2"> 
+        <ul type="square"> 
+          <li> 
+            Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure.           </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+          <li>Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure.           </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+        </ul> 
+        </p> 
+      </label> 
+      <li> 
+        <label for="app4"> 
+          <h2 id="app4">Auto to Your Door</h2> 
+        </label> 
+        <label for="app5"> 
+          <p id="app5"> 
+          <ul type="square"> 
+            <li>A ticket is a voucher that indicates that an individual is entitled to admission 
+            </li> 
+            <li>An event or establishment such as a theatre, amusement park,or tourist attraction 
+            </li> 
+            <li>Has a right to travel on a vehicle, such as with an airline ticket, bus ticket or train ticket. 
+            </li> 
+            <li>An individual typically pays for a ticket, but it may be free of charge. 
+            </li> 
+            <li>A ticket may serve simply as proof of entitlement or reservation. 
+            </li> 
+            <li>A ticket may be valid for any seat (called "free seating" or "open seating"). 
+            </li> 
+            <li>For a specific one (called "allocated seating" or "reserved seating"). 
+            </li> 
+          </ul> 
+      </ul> 
+      <br /> 
+      <br /> 
+      </p> 
+  </div> 
+  <div class="download"> 
+    <table> 
+      <tr> 
+        <td rowspan="3"> 
+          <img src="C:\Users\Yashwanth\OneDrive\Desktop\Auto-road-wide-2-
+1.webp" height="250px" width="400px" /> 
+        </td> 
+        <td colspan="3"> 
+          <h1 id="pack">Get Local App For Easy and Happy Ride</h1> 
+        </td> 
+        <td> 
+        </td> 
+        <td> 
+        </td> 
+      </tr> 
+      <tr> 
+        <td width="100px"> 
+          <a href="https://www.play.google.com"><img id="playstore"               src="C:\Users\Yashwanth\OneDrive\Pictures\google.png" width="200px" height="50px" /></a> 
+        </td> 
+        <td width="100px"> 
+          <a href="https://www.apple.com"><img id="apple" src="C:\Users\Yashwanth\OneDrive\Pictures\app.png" width="200px" height="50px" /></a> 
+        </td> 
+      </tr> 
+    </table> 
+  </div> 
+  <hr> 
+</body> 
+ 
+</html> 
+ 
+ 
+Rentals.html 
+<html> 
+<!DOCTYPE html> 
+<html> 
+ 
+<head> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <style> .head{ background-color:lightpink; 
+} #top{ margin-left:100px;       font-family: verdana;       font-weight: bold;       letter-spacing: 2px; color:white; 
+} .row {      background-color:skyblue;       overflow: hidden; 
+    } 
+h1 {       margin-left: 575px;       font-family: Mongolian Baiti;       font-weight: bold;       letter-spacing: 3px; color:white; 
+    } 
+.border{ margin-top:50px; border:10px rgb(80,80,80) solid; color:white; 
+margin-left:176px; margin-right:177px; border-radius:10px; 
+} 
+    #first {       width: 380px;       height: 70px;       margin-left: 0px; margin-top:0px;       border-top-left-radius: 0px;       border-bottom-left-radius: 0px; border-width:1px; 
+    } 
+    input[placeholder] {       font-family: verdana;       font-style: italic; 
+    } 
+ 
+    #date {       width: 200px;       height: 70px;       text-align: center;       border-width:1px; 
+    } 
+ 
+    #number{       width: 200px;       height: 70px;       margin-left: 0px;       border-top-left-radius: 0px;       border-bottom-left-radius: 0px;       border-width:1px; 
+    } 
+    #search {       background-color: rgb(210, 0, 0);       width: 150px;       height: 71px;       margin-left: 0px;       margin-top:0px;  font-size: 10px;       font-family: verdana;       color: white; border-width:0px; 
+    } 
+    .table {       width: 550px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 20px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%);       overflow: hidden; 
+    } .hotels{ box-shadow:0 0 0 2px hsl(0,0%,95%); margin-left:100px; margin-right:100px; 
+} 
+ 
+    #image1 {     text-align: center;       width: 540px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image1:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+    .table1 {       width: 545px;       height: 190px;       text-align: center;       margin-top: 0px;       margin-left: 30px;       margin-bottom: 20px;       box-shadow:         0 0 0 2px hsl(0, 0%, 95%); 
+    } 
+ 
+    #image2 {       text-align: center;       width: 535px;       height: 180px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image2:hover {       border-style: outset;       height: 180px;       transform: scale(1.07); 
+    } 
+ 
+   #you{ color:black; margin-left:0px; font-weight:normal; }     #special {       margin-left: 20px;       margin-top: 80px; 
+    } 
+ 
+    .spec {       box-shadow:         0 0 0 2px hsl(0, 0%, 97%);       margin-left: 180px;       margin-right: 150px;       margin-top: 40px; 
+    } 
+#hot1{ font-family:tahoma; text-align:center; font-weight:bold; } #hot2{ font-family:tahoma; text-align:center; font-weight:bold; } #hot3{ font-family:tahoma; text-align:center; font-weight:bold; } #hot4{ font-family:tahoma; text-align:center; font-weight:bold; }     #pec {       margin-top: 0px;       margin-left: 20px; color:black; 
+    } 
+ 
+    #link {       font-family: verdana;       color: rgb(0, 0, 80);       text-align: right; 
+    } 
+ 
+    #link:hover {       color: rgb(150, 0, 0); 
+    } 
+ 
+    .specifications {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 80px;       margin-top: 40px;       margin-right: 80px;       margin-bottom: 0px; 
+    } 
+ 
+    #app {       font-family: Tahoma;       font-weight: normal;       text-transform: uppercase;       margin-top: 20px;       margin-left: 20px; color:black; 
+} 
+     ul {       margin-left: 20px; 
+    } 
+ 
+    #app1 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+     p {       font-family: Verdana; 
+    }      li { 
+      font-family: Verdana; 
+    } 
+ 
+    #app4 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } 
+#app6 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+} 
+#app7 {       font-family: Gadugi;       margin-left: 0px;       letter-spacing: 1px; 
+    } .part {       box-shadow:         0 0 0 2px hsl(10, 20%, 97%);       margin-left: 150px;       margin-top: 40px;       margin-right: 120px;       margin-bottom: 0px; 
+    } 
+#part1{       font-family: Gadugi;       margin-left: 40px;       letter-spacing: 1px; 
+    } 
+#image3 { 
+      text-align: center;       width: 280px;       height: 175px; margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+#image3:hover { 
+      border-style: outset;       transform: scale(1.07); 
+    } 
+#image4 { 
+        text-align: center;       width: 280px;       height: 175px; margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+    #image4:hover {       border-style: outset;       transform: scale(1.07); 
+    } 
+#image5 { 
+        text-align: center;       width: 280px;       height: 175px; margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+    #image5:hover {       border-style: outset;       transform: scale(1.07); 
+} 
+#image6 { 
+       text-align: center;       width: 280px;       height: 175px;       margin-left:30px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+    #image6:hover {       border-style: outset;       transform: scale(1.07); 
+    } 
+#image7 { 
+      text-align: center;       width: 200px;       height: 200px;       margin-left: 5px;       margin-top: 5px;       margin-bottom: 8px;       margin-right: 5px; 
+    } 
+ 
+    #image7:hover {       border-style: outset;       height: 200px;       transform: scale(1.07); 
+    } 
+#pack { 
+      font-family: consolas;       margin-left: 100px;       letter-spacing: 0px; font-weight:normal; color:black; 
+    } 
+.download{ margin-left:120px; margin-top:40px; 
+} #playstore{ margin-left:100px; margin-top:40px; 
+} 
+#apple{ margin-left:0px; margin-top:40px; 
+} 
+  </style> 
+</head> 
+ 
+<body> 
+<div class="head"> 
+<br /> 
+<h2 id="top">Local.com</h2> 
+<br /> 
+</div> 
+  <div class="row"> 
+    <h1>Book Your Next Ride</h1> <div class="border"> 
+   <input type="text" id="first" placeholder="Where your travelling to"><input placeholder="Check-in" type="text" onfocus="(this.type='date')" id="date"><input placeholder="Check-out" type="text" onfocus="(this.type='date')" id="date"><input type="number" min="1" id="number" placeholder="No.of people staying" /><input type="button" value="Search" id="search"/> 
+  </div> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+<br /> 
+</div> 
+  <div class="spec"> 
+    <br /> 
+    <table> 
+      <tr> 
+        <td width="1000px"> 
+          <h1 id="pec">Special offers</h1> 
+        </td> 
+        <td width="200px"> 
+          <a id="link" href="localoffer.html">Veiw All Offers</a> 
+        </td> 
+      </tr> 
+    </table> 
+    <table> 
+      <tr> 
+        <td> 
+          <div class="table">             <img id="image1" src="C:\Users\Yashwanth\OneDrive\Pictures\rental1.jpg" /> 
+          </div> 
+        </td> 
+        <td> 
+          <div class="table1">             <img id="image2" src="C:\Users\Yashwanth\OneDrive\Pictures\rental.jpg" /> 
+          </div> 
+        </td> 
+    </table> 
+  </div> 
+<div class="hotels"> 
+<h1 id="you">Type of Vehicle you want</h1> 
+<table> 
+<tr> 
+<td  ><img id="image3" src="C:\Users\Yashwanth\OneDrive\Pictures\car.jpg"  
+/> 
+</td> 
+<td  ><img id="image4" src="C:\Users\Yashwanth\OneDrive\Pictures\bike.png"  /> 
+</td> 
+<td  > 
+<img id="image5" src="C:\Users\Yashwanth\OneDrive\Pictures\tempo.jpg" /> 
+</td> <td > 
+<img id="image6" src="C:\Users\Yashwanth\OneDrive\Pictures\tempo1.jpg"  
+/> 
+</td> 
+</tr> 
+<tr> 
+<td id="hot1"> 
+Car 
+</td> 
+<td id="hot2"> 
+Bike 
+</td> 
+<td id="hot3"> 
+Traveller 
+</td> 
+<td id="hot4"> 
+Tempo 
+</td> 
+</tr></table> 
+</div> 
+  <div class="specifications"> 
+    <label for="app"> 
+      <h1 id="app">Specifications of our App</h1> 
+    </label> 
+    <ul> 
+      <li> 
+        <label for="app1"> 
+          <h2 id="app1">No Convenience Fee</h2> 
+        </label> 
+      </li> 
+      <label for="app2"> 
+        <p id="app2"> 
+        <ul type="square"> 
+          <li> 
+            Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure.           </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+          <li>Convenience fee is charged by a seller/platform when a consumer completes a transaction electronically. 
+          </li> 
+          <li>It may sound ironic but consumers actually pay more for going the 
+‘cashless’ way, instead of paying cash             and buying physical tickets. 
+          </li> 
+          <li> Platforms argue that convenience fees help them cover the costs for putting up and maintaining the             digital payments infrastructure. 
+          </li> 
+          <li> They justify ‘convenience fee’ as the charge for booking from the comfort of your home, instead of             queueing up at their office. 
+          </li> 
+        </ul> 
+        </p> 
+      </label> 
+      <li> 
+        <label for="app4"> 
+          <h2 id="app4">Easy Booking</h2> 
+        </label> 
+        <label for="app5"> 
+          <p id="app5"> 
+          <ul type="square"> 
+            <li>A ticket is a voucher that indicates that an individual is entitled to admission 
+            </li> 
+            <li>An event or establishment such as a theatre, amusement park,or tourist attraction 
+            </li> 
+            <li>Has a right to travel on a vehicle, such as with an airline ticket, bus ticket or train ticket. 
+            </li> 
+            <li>An individual typically pays for a ticket, but it may be free of charge. 
+            </li> 
+            <li>A ticket may serve simply as proof of entitlement or reservation. 
+            </li> 
+            <li>A ticket may be valid for any seat (called "free seating" or "open seating"). 
+            </li> 
+            <li>For a specific one (called "allocated seating" or "reserved seating"). 
+            </li> 
+          </ul> 
+<li> 
+<h2 id="app6"> 
+Exciting Offers 
+</h2> 
+<p> 
+<ul> 
+<li> 
+Sales promotion is one of the elements of the promotional mix. 
+</li> 
+<li> The primary elements in the promotional mix are advertising  
+</li> 
+<li>Personal selling, direct marketing and publicity/public relations.  
+</li> 
+<li>Sales promotion uses both media and non-media marketing communications.  
+</li> 
+<li>A pre-determined, limited time to increase consumer demand, stimulate.  
+</li> 
+<li>Market demand or improve product availability.  
+</li> 
+<li>Examples include contests, coupons, freebies, loss leaders, point of purchase displays, premiums, prizes, product samples, and rebates. 
+</li> 
+<li> 
+Sales promotions can be directed at either the customer, sales staff, or distribution  
+</li><li>Channel members (such as retailers).  
+</li><li>Sales promotions targeted at the consumer are called consumer sales promotions.  
+</li><li>Sales promotions targeted at retailers and wholesale are called trade sales promotions. 
+</li> 
+</ul> 
+ 
+          <br /> 
+<br /> 
+          </p> 
+  </div> 
+<div class="download"> 
+<table> 
+<tr> 
+<td rowspan="3"> 
+<img src="C:\Users\Yashwanth\OneDrive\Pictures\rentalgif.gif" height="200px" width="300px"/> 
+</td> 
+<td colspan="3"> 
+<h1 id="pack">Get Local App For Easy and Happy Ride</h1> 
+</td> 
+<td> 
+</td> 
+<td> 
+</td> 
+</tr> 
+<tr> 
+<td width="100px"> 
+<a href="https://www.play.google.com"><img id="playstore" src="C:\Users\Yashwanth\OneDrive\Pictures\google.png" width="200px" height="50px"/></a> 
+</td> 
+<td width="100px"> 
+<a href="https://www.apple.com"><img id="apple" src="C:\Users\Yashwanth\OneDrive\Pictures\app.png" width="200px" height="50px"/></a> 
+</td> 
+</tr> 
+</table> 
+</div> 
+<hr> 
+</body> 
+</html> 
